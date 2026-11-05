@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'unsafe-inline'; base-uri 'none'; form-action 'none'">
+  <title>Shopee — return to local app</title>
+  <style>
+    body { max-width: 38rem; margin: 10vh auto; padding: 0 1.25rem;
+           font: 16px/1.55 system-ui, sans-serif; color: #18202a; }
+    h1 { font-size: 1.6rem; }
+    #continue { display: none; color: #0866c4; }
+    code { background: #f1f4f8; padding: 2px 5px; border-radius: 3px; }
+  </style>
+  <script src="bridge.js" defer></script>
+</head>
+<body>
+  <h1>Shopee authorization callback</h1>
+  <p id="status">Checking authorization response…</p>
+  <p><a id="continue" rel="noreferrer">Open the local callback manually</a></p>
+  <p>Keep <code>shopee_local_oauth.py</code> running on this computer.
+     If the browser cannot open the local address, start the Python listener and try again.</p>
+</body>
+</html>
