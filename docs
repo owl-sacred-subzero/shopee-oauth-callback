@@ -1,11 +1,1 @@
-<!doctype html>
-<html lang="en">
-<meta charset="utf-8">
-<meta name="referrer" content="no-referrer">
-<title>Shopee OAuth bridge</title>
-<body style="font:16px/1.5 system-ui;max-width:35rem;margin:10vh auto;padding:0 1rem">
-<h1>Shopee OAuth bridge</h1>
-<p>This is the public callback bridge for a local Python application.</p>
-<p>Start authorization from <code>shopee_local_oauth.py</code>; don't visit this page to authorize.</p>
-</body>
-</html>
+
